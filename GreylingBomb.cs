@@ -23,8 +23,8 @@ namespace GreylingBomb
             GreylingBomb.RequiredUpgradeItems.Add("BlackMetal", 50);
             GreylingBomb.CraftAmount = 1;
 
-            GameObject sfx_greyling_explode = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "sfx_greyling_explode"); //custom SFX attached to prefab
             GameObject Greyling_Projectile = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "Greyling_Projectile"); //projected prefab
+            GameObject sfx_greyling_explode = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "sfx_greyling_explode"); //custom SFX attached to projected prefab
             GameObject vfx_greyling_explode = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "vfx_greyling_explode"); //custom VFX attached to projected prefab
             GameObject sfx_greyling_equip = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "sfx_greyling_equip"); //custom SFX attached to SE_Stat script
             GameObject sfx_greyling_throw = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "sfx_greyling_throw"); //custom SFX attached to main prefab
