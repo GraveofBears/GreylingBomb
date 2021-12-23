@@ -1,5 +1,12 @@
-﻿using BepInEx;
+﻿using System.IO;
+using System.Reflection;
+using BepInEx;
+using BepInEx.Configuration;
+using BepInEx.Logging;
+using HarmonyLib;
 using ItemManager;
+using ServerSync;
+using UnityEngine;
 
 namespace GreylingBomb
 {
@@ -21,6 +28,10 @@ namespace GreylingBomb
             GreylingBomb.RequiredUpgradeItems.Add("Iron", 50);
             GreylingBomb.RequiredUpgradeItems.Add("BlackMetal", 50);
             GreylingBomb.CraftAmount = 1;
+
+            GameObject sfx_greyling_explode = ItemManager.PrefabManager.RegisterPrefab("greylingbomb", "sfx_greyling_explode");
+
+
 
         }
     }
