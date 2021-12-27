@@ -7,8 +7,8 @@
     <ProjectGuid>{D181CDA7-EF07-4BBC-B975-2B80FC6BBFAE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GreylingBomb</RootNamespace>
-    <AssemblyName>GreylingBomb</AssemblyName>
+    <RootNamespace>Boomlings</RootNamespace>
+    <AssemblyName>Boomlings</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GreylingBomb.cs" />
+    <Compile Include="Boomlings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
